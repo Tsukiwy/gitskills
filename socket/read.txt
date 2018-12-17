@@ -1,0 +1,11 @@
+现在我们打开两个终端，第一个终端执行 server.py 文件：
+$ python server.py
+
+第二个终端执行 client.py 文件：
+$ python client.py 
+欢迎访问！
+
+这时我们再打开第一个终端，就会看到有以下信息输出：
+连接地址： ('192.168.0.118', 62461)
+
+http://www.runoob.com/python/python-socket.html
