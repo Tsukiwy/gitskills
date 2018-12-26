@@ -1,0 +1,10 @@
+系统相关的信息模块: import sys
+
+
+sys.argv 是一个 list,包含所有的命令行参数.    
+sys.stdout sys.stdin sys.stderr 分别表示标准输入输出,错误输出的文件对象.    
+sys.stdin.readline() 从标准输入读一行 sys.stdout.write("a") 屏幕输出a    
+sys.exit(exit_code) 退出程序    
+sys.modules 是一个dictionary，表示系统中所有可用的module    
+sys.platform 得到运行的操作系统环境    
+sys.path 是一个list,指明所有查找module，package的路径. 

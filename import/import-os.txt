@@ -1,0 +1,18 @@
+操作系统相关的调用和操作: import os
+
+
+
+os.environ 一个dictionary 包含环境变量的映射关系   
+os.environ["HOME"] 可以得到环境变量HOME的值     
+os.chdir(dir) 改变当前目录 os.chdir('d:\\outlook')   
+注意windows下用到转义     
+os.getcwd() 得到当前目录     
+os.getegid() 得到有效组id os.getgid() 得到组id     
+os.getuid() 得到用户id os.geteuid() 得到有效用户id     
+os.setegid os.setegid() os.seteuid() os.setuid()     
+os.getgruops() 得到用户组名称列表     
+os.getlogin() 得到用户登录名称     
+os.getenv 得到环境变量     
+os.putenv 设置环境变量     
+os.umask 设置umask     
+os.system(cmd) 利用系统调用，运行cmd命令  
